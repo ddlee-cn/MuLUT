@@ -165,7 +165,7 @@ if __name__ == "__main__":
             ft_lut_path = os.path.join(opt.expDir,
                                        "LUT_ft_x{}_{}bit_int8_s{}_{}.npy".format(opt.scale, opt.interval, str(stage),
                                                                                  mode))
-            lut_weight = getattr(model_G, "weight_s{}_{}".format(str(stage), mode)).cpu().numpy()
+            lut_weight = np.round(np.clip(getattr(model_G, "weight_s{}_{}".format(str(s+1), mode)).cpu().detach().numpy(), -1, 1) * 127).astype(np.int8)
             np.save(ft_lut_path, lut_weight)
 
     logger.info("Finetuned LUT saved to {}".format(opt.expDir))
