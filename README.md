@@ -8,7 +8,7 @@
 
 ## At A Glance
 
-![MuLUT-ECCV-Github](./docs/At-A-Glance.png)
+![MuLUT-ECCV-Github](./docs/MuLUT-At-A-Glance.png)
 
 Please learn more at our [project page](https://mulut.page.dev).
 
