@@ -4,7 +4,7 @@
 
 (*Equal contribution, #Corresponding author)
 
-[Paper]() | [Supp.]() | [Project Page](https://mulut.pages.dev) | [Intro Video]()
+[Paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136780234.pdf) | [Supp.](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136780234-supp.pdf) | [Poster](https://mulut.pages.dev/static/MuLUT-Poster-ECCV22.pdf) | [Project Page](https://mulut.pages.dev) | [Intro Video](https://youtu.be/xmvQYW7dtaE)
 
 ## At A Glance
 
