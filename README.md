@@ -99,4 +99,4 @@ MIT
 
 ## Acknowledgement
 
-Our code is build upon [SR-LUT](https://github.com/yjogh/SR-LUT).
+Our code is build upon [SR-LUT](https://github.com/yhjo09/SR-LUT).
