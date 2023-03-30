@@ -6,11 +6,19 @@
 
 [Paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136780234.pdf) | [Supp.](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136780234-supp.pdf) | [Poster](https://mulut.pages.dev/static/MuLUT-Poster-ECCV22.pdf) | [Project Page](https://mulut.pages.dev) | [Intro Video](https://youtu.be/xmvQYW7dtaE)
 
+## News
+
+2023.03 Extended version of MuLUT is available on [arxiv](https://arxiv.org/abs/2303.14506).
+
+2023.02 Our related work, [Learning Resampling Function(LeRF)](https://lerf.pages.dev), is accepted by CVPR 2023.
+
+2022.10 MuLUT is open sourced.
+
 ## At A Glance
 
 ![MuLUT-ECCV-Github](./docs/MuLUT-At-A-Glance.png)
 
-Please learn more at our [project page](https://mulut.page.dev).
+Please learn more at our [project page](https://mulut.pages.dev).
 
 ## Usage
 
@@ -84,11 +92,27 @@ If you have any questions, feel free to contact me by e-mail `jclee [at] mail.us
 If you find our work helpful, please cite the following paper.
 
 ```
-@InProceedings{Li_2022_ECCV,
+@InProceedings{Li_2022_MuLUT,
       author    = {Li, Jiacheng and Chen, Chang and Cheng, Zhen and Xiong, Zhiwei},
-      title     = {MuLUT: Cooperating Multiple Look-Up Tables for Efficient Image Super-Resolution},
-      booktitle = {Proceedings of the European Conference on Computer Vision (ECCV)},
+      title     = {{MuLUT}: Cooperating Multiple Look-Up Tables for Efficient Image Super-Resolution},
+      booktitle = {ECCV},
       year      = {2022},
+  }
+  
+  
+@arxiv{Li_2023_DNN_LUT,
+      author    = {Li, Jiacheng and Chen, Chang and Cheng, Zhen and Xiong, Zhiwei},
+      title     = {Toward {DNN} of {LUTs}: Learning Efficient Image Restoration with Multiple Look-Up Tables},
+      booktitle = {arxiv},
+      year      = {2023},
+  }
+  
+
+@InProceedings{Li_2023_LeRF,
+      author    = {Li, Jiacheng and Chen, Chang and Huang, Wei and Lang, Zhiqiang and Song, Fenglong and Yan, Youliang and Xiong, Zhiwei},
+      title     = {Learning Steerable Function for Efficient Image Resampling},
+      booktitle = {CVPR},
+      year      = {2023},
   }
 ```
 
