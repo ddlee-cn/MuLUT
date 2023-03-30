@@ -10,7 +10,7 @@
 
 2023.03 Extended version of MuLUT is available on [arxiv](https://arxiv.org/abs/2303.14506).
 
-2023.02 Our related work, [Learning Resampling Function(LeRF)](https://lerf.pages.dev), is accepted by CVPR 2023.
+2023.02 Our new work, [Learning Resampling Function(LeRF)](https://lerf.pages.dev), is accepted by CVPR 2023.
 
 2022.10 MuLUT is open sourced.
 
