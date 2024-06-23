@@ -1,14 +1,14 @@
 ## [ECCV 2022] MuLUT: Cooperating Mulitple Look-Up Tables for Efficient Image Super-Resolution
-## [TPAMI 2024] Toward DNN of LUTs: Learning Efficient Image Restoration with Multiple Look-Up Tables
+## [T-PAMI 2024] Toward DNN of LUTs: Learning Efficient Image Restoration with Multiple Look-Up Tables
 
-[Jiacheng Li](http://ddlee-cn.github.io), Chang Chen, Zhen Cheng, and [Zhiwei Xiong#](http://staff.ustc.edu.cn/~zwxiong)
+[Jiacheng Li](http://ddlee-cn.github.io), Chang Chen, Zhen Cheng, and [Zhiwei Xiong](http://staff.ustc.edu.cn/~zwxiong)
 
 
 [ECCV Paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136780234.pdf) | [ECCV Paper Supp.](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136780234-supp.pdf) | [T-PAMI Paper](https://ieeexplore.ieee.org/document/10530442/) | [Poster](https://mulut.pages.dev/static/MuLUT-Poster-ECCV22.pdf) | [Project Page](https://mulut.pages.dev) | [Intro Video](https://youtu.be/xmvQYW7dtaE)
 
 ## News
 
-2024.06 Our new work, [Diagonal-First Compression for LUT(DFC)](https://github.com/leenas233/DFC) has been presented as a highlight paper at CVPR 2024. DFC reduce the storage requirement of restoration LUTs significantly (up to 10%) while preserving their performance.
+2024.06 Our new work, [Diagonal-First Compression for LUT(DFC)](https://openaccess.thecvf.com/content/CVPR2024/html/Li_Look-Up_Table_Compression_for_Efficient_Image_Restoration_CVPR_2024_paper.html) has been presented as a highlight paper at CVPR 2024. DFC reduce the storage requirement of restoration LUTs significantly (up to 10%) while preserving their performance.
 
 2024.05 The extended version of MuLUT, DNN-of-LUT, is accepted by [IEEE T-PAMI](https://ieeexplore.ieee.org/document/10530442/).
 
