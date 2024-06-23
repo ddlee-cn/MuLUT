@@ -130,8 +130,9 @@ class SRBenchmark(Dataset):
         self.ims = dict()
         self.files = dict()
         _ims_all = (5 + 14 + 100 + 100 + 109) * 2
+        benchmarks = ['Set5', 'Set14', 'B100', 'Urban100', 'Manga109']
 
-        for dataset in ['Set5', 'Set14', 'B100', 'Urban100', 'Manga109']:
+        for dataset in benchmarks:
             folder = os.path.join(path, dataset, 'HR')
             files = os.listdir(folder)
             files.sort()

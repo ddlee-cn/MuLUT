@@ -62,14 +62,14 @@ def SaveCheckpoint(model_G, opt_G, opt, i, best=False):
 
     torch.save(model_G, os.path.join(
         opt.expDir, 'Model_{:06d}{}.pth'.format(i, str_best)))
-    torch.save(opt_G, os.path.join(
-        opt.expDir, 'Opt_{:06d}{}.pth'.format(i, str_best)))
+    # torch.save(opt_G, os.path.join(
+    #     opt.expDir, 'Opt_{:06d}{}.pth'.format(i, str_best)))
     logger.info("Checkpoint saved {}".format(str(i)))
 
 
 def valid_steps(model_G, valid, opt, iter):
     if opt.debug:
-        datasets = ['Set5', 'Set14']
+        datasets = ['Set5']
     else:
         datasets = ['Set5', 'Set14', 'B100', 'Urban100', 'Manga109']
 

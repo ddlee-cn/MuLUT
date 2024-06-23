@@ -1,12 +1,16 @@
-## MuLUT: Cooperating Mulitple Look-Up Tables for Efficient Image Super-Resolution
+## [ECCV 2022] MuLUT: Cooperating Mulitple Look-Up Tables for Efficient Image Super-Resolution
+## [TPAMI 2024] Toward DNN of LUTs: Learning Efficient Image Restoration with Multiple Look-Up Tables
 
-[Jiacheng Li*](http://ddlee-cn.github.io), Chang Chen*, Zhen Cheng, and [Zhiwei Xiong#](http://staff.ustc.edu.cn/~zwxiong)
+[Jiacheng Li](http://ddlee-cn.github.io), Chang Chen, Zhen Cheng, and [Zhiwei Xiong#](http://staff.ustc.edu.cn/~zwxiong)
 
-(*Equal contribution, #Corresponding author)
 
-[Paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136780234.pdf) | [Supp.](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136780234-supp.pdf) | [Poster](https://mulut.pages.dev/static/MuLUT-Poster-ECCV22.pdf) | [Project Page](https://mulut.pages.dev) | [Intro Video](https://youtu.be/xmvQYW7dtaE)
+[ECCV Paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136780234.pdf) | [ECCV Paper Supp.](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136780234-supp.pdf) | [T-PAMI Paper](https://ieeexplore.ieee.org/document/10530442/) | [Poster](https://mulut.pages.dev/static/MuLUT-Poster-ECCV22.pdf) | [Project Page](https://mulut.pages.dev) | [Intro Video](https://youtu.be/xmvQYW7dtaE)
 
 ## News
+
+2024.06 Our new work, [Diagonal-First Compression for LUT(DFC)](https://github.com/leenas233/DFC) has been presented as a highlight paper at CVPR 2024. DFC reduce the storage requirement of restoration LUTs significantly (up to 10%) while preserving their performance.
+
+2024.05 The extended version of MuLUT, DNN-of-LUT, is accepted by [IEEE T-PAMI](https://ieeexplore.ieee.org/document/10530442/).
 
 2023.03 Extended version of MuLUT is available on [arxiv](https://arxiv.org/abs/2303.14506).
 
@@ -99,12 +103,15 @@ If you find our work helpful, please cite the following papers.
       year      = {2022},
   }
   
-  
-@arxiv{Li_2023_DNN_LUT,
+@ARTICLE{10530442,
       author    = {Li, Jiacheng and Chen, Chang and Cheng, Zhen and Xiong, Zhiwei},
       title     = {Toward {DNN} of {LUTs}: Learning Efficient Image Restoration with Multiple Look-Up Tables},
-      booktitle = {arxiv},
-      year      = {2023},
+      journal   = {IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+      year      = {2024},
+      volume    = {},
+      number    = {},
+      pages     = {1-18},
+      doi       = {10.1109/TPAMI.2024.3401048}
   }
   
 
