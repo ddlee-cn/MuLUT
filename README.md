@@ -71,6 +71,7 @@ python 2_transfer_to_lut.py --stages 2 --modes sdy -e ../models/sr/x2sdy
 
 ```
 python 3_finetune_lut.py --stages 2 --modes sdy -e ../models/sr_x2sdy \
+                        --batchSize 256 --totalIter 2000 \ # when finetuning, the batch size can be larger, and the total training steps can be smaller 
                         --trainDir ../data/DIV2K --valDir ../data/SRBenchmark
 ```
 
