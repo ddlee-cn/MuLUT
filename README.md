@@ -8,6 +8,15 @@
 
 ## News
 
+
+2025.06 The extended version of LeRF is accepted by [IEEE T-PAMI](https://ieeexplore.ieee.org/document/11027639).
+
+2025.06 The refactored ANDROID code of MuLUT is [open sourced](https://github.com/ddlee-cn/MuLUT-Android).
+
+2025.05 My Ph.D. advisor, Prof. Zhiwei Xiong, gave a [talk (in Chinese)](https://ccig.csig.org.cn/2025/6874/list.html#:~:text=%E6%8A%A5%E5%91%8A%E9%A2%98%E7%9B%AE%EF%BC%9A%20%E5%9F%BA%E4%BA%8E%E5%8F%AF%E5%AD%A6%E4%B9%A0%E6%9F%A5%E6%89%BE%E8%A1%A8%E7%9A%84%E9%AB%98%E6%95%88%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86) on learned LUTs at Chinese Congress on Image and Graphics (CCIG) 2025.
+
+2024.12 Our new work, [In-Loop Filtering via Trained Look-Up Tables(ILF-LUT)](https://ieeexplore.ieee.org/abstract/document/10849824) has been accepted by VCIP 2024. ILF-LUT extends learned LUTs to video coding, offering a way to integrate learned components into the video codec pipeline.
+
 2024.06 Our new work, [Diagonal-First Compression for LUT(DFC)](https://openaccess.thecvf.com/content/CVPR2024/html/Li_Look-Up_Table_Compression_for_Efficient_Image_Restoration_CVPR_2024_paper.html) has been presented as a highlight paper at CVPR 2024. DFC reduce the storage requirement of restoration LUTs significantly (up to 10%) while preserving their performance.
 
 2024.05 The extended version of MuLUT, DNN-of-LUT, is accepted by [IEEE T-PAMI](https://ieeexplore.ieee.org/document/10530442/).
@@ -16,7 +25,7 @@
 
 2023.02 Our new work, [Learning Resampling Function(LeRF)](https://lerf.pages.dev), is accepted by CVPR 2023. LeRF makes up for the regrets of MuLUT on replacing interpolation methods via achiving continuous resampling.
 
-2022.10 MuLUT is open sourced.
+2022.10 MuLUT is published at ECCV 2022 and open sourced here.
 
 ## At A Glance
 
@@ -105,16 +114,15 @@ If you find our work helpful, please cite the following papers.
   }
   
 @ARTICLE{10530442,
-      author    = {Li, Jiacheng and Chen, Chang and Cheng, Zhen and Xiong, Zhiwei},
-      title     = {Toward {DNN} of {LUTs}: Learning Efficient Image Restoration with Multiple Look-Up Tables},
-      journal   = {IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
-      year      = {2024},
-      volume    = {},
-      number    = {},
-      pages     = {1-18},
-      doi       = {10.1109/TPAMI.2024.3401048}
-  }
-  
+  author={Li, Jiacheng and Chen, Chang and Cheng, Zhen and Xiong, Zhiwei},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={Toward DNN of LUTs: Learning Efficient Image Restoration With Multiple Look-Up Tables}, 
+  year={2024},
+  volume={46},
+  number={12},
+  pages={8284-8301},
+  doi={10.1109/TPAMI.2024.3401048}}
+
 
 @InProceedings{Li_2023_LeRF,
       author    = {Li, Jiacheng and Chen, Chang and Huang, Wei and Lang, Zhiqiang and Song, Fenglong and Yan, Youliang and Xiong, Zhiwei},
@@ -122,6 +130,18 @@ If you find our work helpful, please cite the following papers.
       booktitle = {CVPR},
       year      = {2023},
   }
+
+@ARTICLE{11027639,
+  author={Li, Jiacheng and Chen, Chang and Song, Fenglong and Yan, Youliang and Xiong, Zhiwei},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={LeRF: Learning Resampling Function for Adaptive and Efficient Image Interpolation}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-18},
+  doi={10.1109/TPAMI.2025.3577227}}
+
+
 ```
 
 
